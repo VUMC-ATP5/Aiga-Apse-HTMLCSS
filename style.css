@@ -11,7 +11,7 @@ font-size: large;
    
 }
 p .sadaļas {
-    font-size:larger;  
+    font-size:larger; font-style:initial; 
     color: black;
 }
 h1 {
@@ -32,7 +32,7 @@ border-color: rgb(233, 33, 33);
 
 div.full {
     background-color: dimgray;
-    grid-template-columns: 50% 40%;
+    grid-template-columns: 30% 70%;
     display: grid;
  }
 
@@ -40,7 +40,7 @@ div.full {
 div.kreisais {
     background-color:aqua;
     min-height: 50px; 
-    background-color:
+   
 
 
 }
