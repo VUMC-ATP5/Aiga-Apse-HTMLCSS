@@ -1,16 +1,23 @@
 body {
-    background-color: darkgoldenrod;
+    background-color: grey;
+    font-size: large;
+
 }
 p {
-    border-style: groove;
-    color: darkgreen;
-    border-color: black;
+
+font-size: large; 
+    color: black;
+
    
+}
+p .sadaļas {
+    font-size:larger; font-style:initial; 
+    color: black;
 }
 h1 {
     padding-left: 40px;
 }
-a {color: red;}
+a {color:lightcoral;}
 
 .dzīvnieks {
 border-style: double;
@@ -21,21 +28,28 @@ border-color: rgb(233, 33, 33);
     color: darkmagenta;
 }
 
-#specialButton{color: darkmagenta;
-background-color: rgb(43, 255, 0);}
+
 
 div.full {
-    min-height: 100px;
-    background-color: rgb(42, 165, 93);
+    background-color: dimgray;
+    grid-template-columns: 30% 70%;
     display: grid;
-    grid-template-columns: 10% 50% 40%;
+ }
 
-}
 
 div.kreisais {
-    color: blue;
+    background-color:aqua;
+    min-height: 50px; 
+   
+
+
 }
+   
 div.labais {
-    color: darkorange;
-    min-height: ;
+
+    background-color: lightsalmon;
+    font-size: large;
+    text-align: left;
+    min-height: 50px;   
+    
 }
